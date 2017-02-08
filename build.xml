@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project name="tekforce" default="execute">
+<target name="info">
+<echo>info block executed ${ant.home}</echo>
+</target>
+<target name="compile" depends="info">
+<echo>compile block executed</echo>
+</target>
+<target name="execute" depends="compile">
+<echo>execute block achieved</echo>
+</target>
+</project>
